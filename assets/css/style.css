@@ -1,0 +1,417 @@
+	*{
+		margin: 0;
+		padding: 0;
+	}
+
+	.bg{
+		background-image: url("../images/portfoliobg.jpg" );
+		background-repeat: no-repeat;
+  		background-size: cover;
+  		width: 100vw;
+  		height: 100vh;
+  		font-family: 'Zilla Slab', serif !important;
+	}
+
+	.bg2{
+		background-image: url("../images/portfoliobg.jpg" );
+		background-repeat: no-repeat;
+  		background-size: cover;
+  		width: 100vw;
+  		height: 100vh;
+  		font-family: 'Zilla Slab', serif !important;
+	}
+
+	.myCreations{
+		color: white;
+		padding-bottom: 30px;
+		font-size: 84px;
+		position: relative;
+		top:20%;
+		display: inline-block;
+		animation: title 2s;
+		animation-fill-mode: forwards; 
+	}
+
+	.myCreationsSubtitle{
+		color: white;
+		font-size: 54px;
+	}
+
+	#shooting-star{
+		color: white;
+		font-size: 100px;
+		position: relative;
+		top:5%;
+		display: inline-block;
+		transform: rotateZ(143deg);
+		animation: shooting 3s ;
+		animation-fill-mode: forwards; 
+	}
+
+	#shooting-star2{
+		color: white;
+		font-size: 100px;
+		position: relative;
+		top:5%;
+		display: inline-block;
+		transform: rotateZ(153deg);
+		animation: shooting2 3.5s ;
+		animation-fill-mode: forwards; 
+	}
+
+	#shooting-star3{
+		color: white;
+		font-size: 100px;
+		position: relative;
+		top:5%;
+		display: inline-block;
+		transform: rotateZ(163deg);
+		animation: shooting3 4s ;
+		animation-fill-mode: forwards; 
+	}
+
+	#shooting-star4{
+		color: white;
+		font-size: 100px;
+		position: relative;
+		top:5%;
+		display: inline-block;
+		transform: rotateZ(173deg);
+		animation: shooting4 4.5s ;
+		animation-fill-mode: forwards; 
+	}
+
+	#shooting-star5{
+		color: white;
+		font-size: 100px;
+		position: relative;
+		top:5%;
+		display: inline-block;
+		transform: rotateZ(183deg);
+		animation: shooting5 5s ;
+		animation-fill-mode: forwards; 
+	}
+
+	#shooting-star6{
+		color: white;
+		font-size: 100px;
+		position: relative;
+		top:5%;
+		display: inline-block;
+		transform: rotateZ(193deg);
+		animation: shooting6 5.5s ;
+		animation-fill-mode: forwards; 
+	}
+
+	.titles{
+		color: white;
+		font-size: 24px;
+		position: relative;
+		top: 42%;
+    	opacity: 0;
+    	animation: titles 1s linear;
+    	animation-delay: 5s;
+    	animation-fill-mode: forwards;
+	}
+
+	.buttons{
+		position: relative;
+		top: 60%;
+		color: white
+	}
+
+	.buttonDesign{
+		color: white;
+		/*background-color: #142747ff;*/
+		background-image: radial-gradient(farthest-side at 14% 78%, #142747ff,  #142747ff, #3b69b7ff);
+		padding: 20px;
+		border-radius: 5px;
+		font-family: 'Zilla Slab', serif !important;
+		font-size: 20px;
+	}
+
+	.appear1, .appear2, .appear3, .appear4, .appear5, .appear6, .appear7, .appear8, .appear9{
+		opacity: 0;
+	}
+
+	.appear1{
+		animation: appear1 1.5s linear;
+		animation-fill-mode: forwards;
+		animation-delay: 6s
+	}
+
+	.appear2{
+		animation: appear1 1.5s linear;
+		animation-fill-mode: forwards;
+		animation-delay: 6.4s
+	}
+
+	.appear3{
+		animation: appear1 1.5s linear;
+		animation-fill-mode: forwards;
+		animation-delay: 6.8s
+	}
+
+	.appear4{
+		animation: appear1 1.5s linear;
+		animation-fill-mode: forwards;
+		animation-delay: 7.2s
+	}
+
+	.appear5{
+		animation: appear1 1.5s linear;
+		animation-fill-mode: forwards;
+		animation-delay: 7.6s
+	}
+
+	.appear6{
+		animation: appear1 1.5s linear;
+		animation-fill-mode: forwards;
+		animation-delay: 3.6s
+	}
+
+	.appear7{
+		animation: appear1 1.5s linear;
+		animation-fill-mode: forwards;
+		animation-delay: 2.4s
+	}
+
+	.appear8{
+		animation: appear1 1.5s linear;
+		animation-fill-mode: forwards;
+		animation-delay: 2.8s
+	}
+
+	.appear9{
+		animation: appear1 1.5s linear;
+		animation-fill-mode: forwards;
+		animation-delay: 3.2s
+	}
+
+
+	.buttonDesign:hover{
+		transform: scale(1.1);
+	}
+
+	.img-fluid:hover{
+		transform: scale(1.05);
+	}
+
+
+	.backButton:hover{
+		transform: scale(1.01);
+	}
+
+
+
+
+@media only screen and (max-width: 768px){ 
+ 	.myCreations{
+ 		font-size: 45px;
+ 	}
+
+	.myCreationsSubtitle{
+		font-size: 30px;
+	}
+
+	.bg2{
+		height: auto;
+	}
+
+	.appear7, .appear9 {
+    	padding-top: 34px;
+	}
+
+	.appear8{
+		padding-top: 0px;
+	}
+
+	#shooting-star, #shooting-star2, #shooting-star3, #shooting-star4, #shooting-star5, #shooting-star6{
+		font-size: 80px;
+		transform: rotateZ(0deg);
+		top: 25%;
+	}
+
+	#shooting-star{
+		top: -25%;
+		animation: shooting7 3s;
+		animation-fill-mode: forwards;
+	}
+
+	#shooting-star2{
+		top: -25%;
+		animation: shooting8 3.5s;
+		animation-fill-mode: forwards;
+	}
+
+	#shooting-star3{
+		top: -25%;
+		animation: shooting9 4s;
+		animation-fill-mode: forwards;
+	}
+
+	#shooting-star4{
+		top: -25%;
+		animation: shooting10 4.5s;
+		animation-fill-mode: forwards;
+	}
+
+	#shooting-star5{
+		top: -25%;
+		animation: shooting11 5s;
+		animation-fill-mode: forwards;
+	}
+
+	#shooting-star6{
+		top: -25%;
+		animation: shooting12 5.5s;
+		animation-fill-mode: forwards;
+	}
+
+	.titles{
+		top: 5%;
+	}
+
+	.buttons {
+    	top: 11%;
+	}
+
+	.buttonAlign{
+		margin-bottom: 10px;
+	}
+
+	.buttonDesign{
+		width: 100%;
+	}
+
+	.buttonDesign:hover{
+		transform: scale(1.01);
+	}
+
+}
+
+
+
+	/*KEYFRAMESS*/
+
+	@keyframes title{
+		0%{opacity: 0;transform: scale(2);}
+		30%{opacity: 0.3}
+		50%{opacity: 1;transform: scale(1);transform: rotate(5deg);}
+		75%{transform: rotate(-5deg);}
+		100%{transform: rotate(0deg)}
+	}
+
+	@keyframes titleShake{
+		0%{transform: rotate(5deg);}
+		60%{transform: rotate(-5deg);}
+		100%{transform: rotate(0deg)}
+	}
+
+	@keyframes appear1{
+		0%{opacity: 0}
+		100%{opacity: 1}
+	}
+
+	@keyframes appear2{
+		0%{opacity: 0}
+		100%{opacity: 1}
+	}
+	@keyframes appear3{
+		0%{opacity: 0}
+		100%{opacity: 1}
+	}
+
+	@keyframes appear4{
+		0%{opacity: 0}
+		100%{opacity: 1}
+	}
+
+	@keyframes appear5{
+		0%{opacity: 0}
+		100%{opacity: 1}
+	}
+
+	@keyframes appear6{
+		0%{opacity: 0}
+		100%{opacity: 1}
+	}
+
+	@keyframes titles{
+		0%{opacity: 0}
+		100%{opacity: 1}
+	}
+
+	@keyframes shooting6{
+		0%{opacity: 0;}
+		50%{opacity: 0.1}
+		100%{opacity: 1;transform: rotateZ(133deg);transform: translateY(37vh);}
+	}
+
+	@keyframes shooting5{
+		0%{opacity: 0;}
+		50%{opacity: 0.1}
+		100%{opacity: 1;transform: rotateZ(133deg);transform: translateY(37vh);}
+	}
+
+	@keyframes shooting4{
+		0%{opacity: 0;}
+		50%{opacity: 0.1}
+		100%{opacity: 1;transform: rotateZ(133deg);transform: translateY(37vh);}
+	}
+
+	@keyframes shooting3{
+		0%{opacity: 0;}
+		50%{opacity: 0.1}
+		100%{opacity: 1;transform: rotateZ(133deg);transform: translateY(37vh);}
+	}
+
+	@keyframes shooting2{
+		0%{opacity: 0;}
+		50%{opacity: 0.1}
+		100%{opacity: 1;transform: rotateZ(133deg);transform: translateY(37vh);}
+	}
+
+	@keyframes shooting{
+		0%{opacity: 0;}
+		50%{opacity: 0.1}
+		100%{opacity: 1;transform: rotateZ(143deg);transform: translateY(37vh);}
+	}
+
+
+
+	@keyframes shooting12{
+		0%{opacity: 0;}
+		50%{opacity: 0.1}
+		100%{opacity: 1;transform: rotateZ(133deg); ;transform: translateY(7vh)}
+	}
+
+	@keyframes shooting11{
+		0%{opacity: 0;}
+		50%{opacity: 0.1}
+		100%{opacity: 1;transform: rotateZ(133deg); ;transform: translateY(7vh)}
+	}
+
+	@keyframes shooting10{
+		0%{opacity: 0;}
+		50%{opacity: 0.1}
+		100%{opacity: 1;transform: rotateZ(133deg); ;transform: translateY(7vh)}
+	}
+
+	@keyframes shooting9{
+		0%{opacity: 0;}
+		50%{opacity: 0.1}
+		100%{opacity: 1;transform: rotateZ(133deg); ;transform: translateY(7vh)}
+	}
+
+	@keyframes shooting8{
+		0%{opacity: 0;}
+		50%{opacity: 0.1}
+		100%{opacity: 1;transform: rotateZ(133deg); ;transform: translateY(7vh)}
+	}
+
+	@keyframes shooting7{
+		0%{opacity: 0;}
+		50%{opacity: 0.1}
+		100%{opacity: 1;transform: rotateZ(143deg);transform: translateY(7vh)}
+	}
