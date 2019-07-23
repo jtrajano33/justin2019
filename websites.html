@@ -13,18 +13,58 @@
 
 	<link href="./assets/css/style.css" rel="stylesheet" />
 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 </head>
 
 <body>
-	<div class="bg">
-		<div style="display: flex;">
-			<div style="flex: 3"></div>
-			<div style="flex:6;text-align: center;">
+	<div class="bg2 container-fluid">
+		<div class="row" ">
+			<div class="col-md-3"></div>
+			<div class="col-md-6" style="text-align: center;">
 				<div class="myCreations">My Websites</div>
 			</div>
-			<div style="flex: 3"></div>
-		</div>		
+			<div class="col-md-3"></div>
+		</div>
+
+		<div class="row" style="text-align: center;padding: 35px">
+			<div class="appear8 col-md-4">
+				<div style="">
+					<div class="myCreationsSubtitle">Japanese App</div>
+					<a href="https://flip-flash.herokuapp.com" target="_blank">
+						<img class="img-fluid" src="./assets/images/cap1.png" width="100%" />
+					</a>
+				</div>
+			</div>
+			<div class="appear7 col-md-4">
+				<div style="">
+					<div class="myCreationsSubtitle">Marketing Site</div>
+					<a href="https://jtrajano33.github.io/schuitt/" target="_blank">
+						<img class="img-fluid" src="./assets/images/schuitt.png" width="98%" />
+					</a>
+				</div>
+			</div>
+			<div class="appear9 col-md-4">
+				<div style="">
+					<div class="myCreationsSubtitle">E-Commerce</div>
+					<a href="https://artvana.000webhostapp.com/artvana/index.php" target="_blank">
+						<img class="img-fluid" src="./assets/images/caps2.png" width="95%" />
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div style="display: flex;padding: 0px 35px">
+			<div style="flex:12;text-align: right;">
+				<div class="myCreationsSubtitle appear6" onclick="gotoHome()"><p class="backButton">Back >></p></div>
+			</div>
+		</div>			
 	</div>
-</body>
+
+	<script type="text/javascript">
+		function gotoHome(){
+			window.location.href="./index.html"
+		}
+	</script>
 
 </html>
