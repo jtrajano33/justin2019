@@ -57,13 +57,126 @@
 			</div>
 
 			<div class="buttonAlign col-md col-sm-6 col-xs-6" style="text-align: center">
-				<button class="buttonDesign appear4" onclick="gotoTools()">Tools I Use</button>
+				<button class="buttonDesign appear4" type="button" data-toggle="modal" data-target="#toolsUsed">Tools I Use</button>
 			</div>
 
 			<div class="buttonAlign col-md col-sm-6 col-xs-6" style="text-align: center">
 				<button class="buttonDesign appear5" onclick="gotoContactMe()">Contact me</button>
 			</div>
 		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="toolsUsed" tabindex="-1" role="dialog" aria-labelledby="toolsUsedLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title font-weight-bold" id="toolsUsedLabel">Tools I use</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <div class="container-fluid">
+		        	Web & Games Development
+		        	<hr />
+		        	<div class="row text-center">
+		        		<div class="col">
+		        			<img class="img-fluid" src="./assets/images/logos/react.png" width="90%" />
+		        		</div>
+		        		<div class="col">
+		        			<img class="img-fluid" src="./assets/images/logos/express.png" width="90%" />
+		        		</div>
+		        		<div class="col">
+		        			<img class="img-fluid" src="./assets/images/logos/node.png" width="90%" />
+		        		</div>
+		        		<div class="col">
+		        			<img class="img-fluid" src="./assets/images/logos/mongodb.png" width="90%" />
+		        		</div>
+		        		<div class="col">
+		        			<img class="img-fluid" src="./assets/images/logos/redux.png" width="90%" />
+		        		</div>
+		        	</div>
+
+		        	<div class="row text-center pt-3">
+		        		<div class="col">
+		        			<img class="img-fluid" src="./assets/images/logos/html.png" width="85%" />
+		        		</div>
+		        		<div class="col">
+		        			<img class="img-fluid" src="./assets/images/logos/css.png" width="85%" />
+		        		</div>
+		        		<div class="col">
+		        			<img class="img-fluid" src="./assets/images/logos/javascript.png" width="100%" />
+		        		</div>
+		        		<div class="col">
+		        			<img class="img-fluid" src="./assets/images/logos/sass.png" width="100%" />
+		        		</div>
+		        		<div class="col">
+		        			<img class="img-fluid" src="./assets/images/logos/jquery.png" width="100%" />
+		        		</div>
+		        	</div>
+
+		        	<div class="row text-center pt-3">
+		        		<div class="col">
+		        			<img class="img-fluid pt-1" src="./assets/images/logos/php.png" width="100%" />
+		        		</div>
+		        		<div class="col">
+		        			<img class="img-fluid" src="./assets/images/logos/laravel.png" width="100%" />
+		        		</div>
+		        		<div class="col">
+		        			<img class="img-fluid" src="./assets/images/logos/sql.png" width="85%" />
+		        		</div>
+		        		<div class="col">
+		        			<img class="img-fluid" src="./assets/images/logos/bootstrap.png" width="100%" />
+		        		</div>
+		        		<div class="col">
+		        			<img class="img-fluid" src="./assets/images/logos/lambda.png" width="90%" />
+		        		</div>
+		        	</div>
+
+		        	<div class="row text-center pt-3">
+		        		<div class="col">
+		        			<img class="img-fluid" src="./assets/images/logos/github.png" width="100%" />
+		        		</div>
+		        		<div class="col">
+		        			<img class="img-fluid pt-3" src="./assets/images/logos/heroku.png" width="100%" />
+		        		</div>
+		        		<div class="col">
+		        			<img class="img-fluid pt-3" src="./assets/images/logos/bulma.png" width="100%" />
+		        		</div>
+		        		<div class="col">
+		        			<img class="img-fluid pt-3" src="./assets/images/logos/unity.png" width="100%" />
+		        		</div>
+		        		<div class="col">
+		        			<img class="img-fluid" src="./assets/images/logos/graphql.png" width="85%" />
+		        		</div>
+		        	</div>
+		        </div>
+
+		        <hr />
+				<div class="container-fluid">
+		        	Digital Arts
+		        	<hr />
+		        	<div class="row text-center pt-1">
+		        		<div class="col">
+		        			<img class="img-fluid" src="./assets/images/logos/autocad.png" width="55%" />
+		        		</div>
+		        		<div class="col">
+		        			<img class="img-fluid pt-4" src="./assets/images/logos/sai.png" width="90%" />
+		        		</div>
+		        		<div class="col">
+		        			<img class="img-fluid" src="./assets/images/logos/inkscape.png" width="90%" />
+		        		</div>
+		        	</div>
+		        </div>
+
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
 	</div>
 
 	<script type="text/javascript">
@@ -87,6 +200,14 @@
 			window.location.href="./contact.html"
 		}
 	</script>
+
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 </body>
 
