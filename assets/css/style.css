@@ -210,6 +210,10 @@
 		padding-bottom: 10px !important;
 	}
 
+	.contactMessage{
+		font-size: 28px;
+	}
+
 
 
 
@@ -217,6 +221,14 @@
 
 
 @media only screen and (max-width: 769px){ 
+	h1{
+		font-size: 1.5rem !important;
+	}
+
+	.contactMessage{
+		font-size: 20px;
+	}
+
  	.myCreations{
  		font-size: 45px;
  	}
@@ -441,6 +453,10 @@
 		50%{opacity: 1;transform: scale(1);transform: rotate(5deg);}
 		75%{transform: rotate(-5deg);}
 		100%{transform: rotate(0deg)}
+	}
+
+	.mobileImg{
+		padding-top: 10px;
 	}
 
 
